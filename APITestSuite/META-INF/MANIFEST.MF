@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: APITestSuite
+Bundle-SymbolicName: APITestSuite
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: APITestsuite
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.junit;bundle-version="4.0.0";visibility:=reexport,
+ API;bundle-version="1.0.0";visibility:=reexport,
+ APIInstantiationDeltaEcore;bundle-version="1.0.0"
+Export-Package: api.test

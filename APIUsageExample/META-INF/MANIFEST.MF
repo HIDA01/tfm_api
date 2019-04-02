@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: APIUsageExample
+Bundle-SymbolicName: APIUsageExample
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: APIUsageExample
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: APIInstantiationDeltaEcore;bundle-version="1.0.0"
+Export-Package: api.example

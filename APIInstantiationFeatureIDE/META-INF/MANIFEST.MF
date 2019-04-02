@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: APIInstantiationFeatureIDE
+Bundle-SymbolicName: APIInstantiationFeatureIDE
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: APIInstantiationFeatureIDE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: API,
+ de.ovgu.featureide.fm.core
+Bundle-ClassPath: .,
+ libraries/guava-27.1-jre.jar
+Export-Package: api.instance.featureide,
+ api.instance.featureide.test

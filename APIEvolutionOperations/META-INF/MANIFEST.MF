@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: APIEvolutionOperations
+Bundle-SymbolicName: APIEvolutionOperations
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: APIEvolutionOperations
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: API
+Export-Package: api.operation,
+ api.operation.serializer
